@@ -1,21 +1,31 @@
 * { margin:0; padding:0; }
 html { min-height:100%; }
-body { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; min-height:100%; }
+body { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; min-height:100%; background:#fff; }
 
 table { width:100%; min-height:100%; }
 table th, table td { padding:10px; }
 table th { text-align: left; padding:60px 0 20px 130px; }
 
+h1 { text-shadow: #eee 1px 1px 20px; }
+
 .tekisuto { min-width:450px; width:450px; border-right:1px solid #a5a5a5;  }
 .code { background-color: #d8e9d5; padding-left:20px; }
 
 input.text, textarea { width: 100%; font-size:16px; padding:4px; }
- { margin-top:2px; }
+textarea { height: 60px; }
+
 
 .annotation { font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	font-size:11px; width: 100px; float:left; text-align:right; padding-right:20px; padding-top:6px;
+	font-size:11px; width: 100px; float:left; text-align:right; padding-right:20px; padding-top:8px;
 }
 .content { width: 400px; float:left;  }
 
 
-pre { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; min-height:100%; }
+pre { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; min-height:100%; max-width:600px; }
+
+
+#insert_menu { width: 600px; position: absolute; left: 110px; }
+#insert_menu ul { }
+#insert_menu ul li { float:left; display:block; padding-left:20px; }
+#insert_menu ul li a { font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; color:darkgreen; }
+#insert_menu ul li a:hover { text-decoration:none; color:#333; }
